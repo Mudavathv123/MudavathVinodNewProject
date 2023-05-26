@@ -10,6 +10,7 @@ public class EmailApp {
 		ApplicationContext context = new ClassPathXmlApplicationContext("emailapp/email.xml");
 		Email email1 = context.getBean("email1",Email.class);
 		System.out.println(email1.showInfo());
+		System.out.println("Changes By vinod mudavath.");
 		
 	}
 }
